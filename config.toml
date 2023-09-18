@@ -1,0 +1,17 @@
+[bot]
+token = "bot_token_here"
+owner_id = 6666
+admin_ids = []
+
+[misc]
+throttling_rate = 0.5
+backup_interval = 2
+need_required_sub = false
+
+[database]
+models = [ "app.services.database", "aerich.models",]
+protocol = "sqlite"
+user = ""
+password = ""
+host = ""
+port = ""
